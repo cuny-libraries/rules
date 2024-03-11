@@ -1,2 +1,2 @@
 # rules
-Indication and Normalization Rules
+Indication and normalization rules in Ex Libris Alma
