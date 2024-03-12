@@ -1,0 +1,7 @@
+rule "561 exists"
+##Determines if 561 field is present in the bib record
+when
+(exists "561")
+then
+set indication."true"
+end

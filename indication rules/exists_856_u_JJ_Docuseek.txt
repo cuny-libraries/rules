@@ -1,0 +1,7 @@
+rule "JJ Docuseek"
+##Finds records with https://ez.lib.jjay.cuny.edu/login?url=https://docuseek2.com in the 856 field
+when
+ (exists "856.u.https://ez.lib.jjay.cuny.edu/login?url=https://docuseek2.com*")
+then
+set indication."true"
+end

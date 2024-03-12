@@ -1,0 +1,7 @@
+rule "650 duplicate Change the Subject subfields"
+##Returns records with duplicate instances of $$2 Change the Subject in the 650 field
+when
+recordHasDuplicateSubfields "650" "2" ".,"
+then
+set indication."true"
+end

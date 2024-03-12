@@ -1,0 +1,7 @@
+rule "590 is local"
+##Determines if 590 field is a local extension
+when
+(exists "590.9")
+then
+set indication."true"
+end

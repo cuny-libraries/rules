@@ -1,0 +1,7 @@
+rule "Wrong delimiter"
+##Returns records where any field contains the symbol ǂ copied from Connexion
+when
+((exists "0**.*\\ǂ*") OR (exists "1**.*\\ǂ*") OR (exists "2**.*\\ǂ*") OR (exists "3**.*\\ǂ*") OR (exists "4**.*\\ǂ*") OR (exists "5**.*\\ǂ*") OR (exists "6**.*\\ǂ*") OR (exists "7**.*\\ǂ*") OR (exists "8**.*\\ǂ*") OR (exists "9**.*\\ǂ*"))
+then
+set indication."true"
+end

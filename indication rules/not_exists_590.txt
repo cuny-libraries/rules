@@ -1,0 +1,7 @@
+rule "590 not exists"
+##Determines if 590 field is not present in the bib record
+when
+(not exists "590")
+then
+set indication."true"
+end

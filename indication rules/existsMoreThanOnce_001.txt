@@ -1,0 +1,7 @@
+rule "multiple 001 fields"
+##Determines if 001 field is repeated
+when
+existsMoreThanOnce "001"
+then
+set indication."true"
+end
