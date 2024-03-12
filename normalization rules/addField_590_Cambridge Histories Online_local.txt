@@ -1,0 +1,8 @@
+rule "Cambridge Histories Online (590 $9)"
+##Add local 590 note "Cambridge Histories Online" in CZ records
+when
+(not exists "590.a.Cambridge Histories Online")
+then
+addField "590.a.Cambridge Histories Online"
+addSubField "590.9.LOCAL" if (exists "590.a.Cambridge Histories Online")
+end

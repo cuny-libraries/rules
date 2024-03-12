@@ -1,0 +1,7 @@
+rule "952 Tag"
+##deleting obsolete aleph ID numbers
+when
+(TRUE)
+then
+removeField "952"
+end

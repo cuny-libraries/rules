@@ -1,0 +1,7 @@
+rule "delete 001"
+##Deletes all 001 fields
+when
+(TRUE)
+then
+removeControlField "001"
+end

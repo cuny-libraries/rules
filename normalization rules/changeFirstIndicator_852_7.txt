@@ -1,0 +1,7 @@
+rule "change 852 first indicator to 7"
+##change 852 first indicator to Source specified in subfield $2
+when 
+TRUE
+then
+changeFirstIndicator "852" to "7"
+end

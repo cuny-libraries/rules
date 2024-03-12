@@ -1,0 +1,7 @@
+rule "change 852 first indicator to 0"
+##change 852 first indicator to Library of Congress classification
+when 
+TRUE
+then
+changeFirstIndicator "852" to "0"
+end

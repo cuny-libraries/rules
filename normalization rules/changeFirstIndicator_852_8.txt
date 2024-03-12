@@ -1,0 +1,7 @@
+rule "change 852 first indicator to 8"
+##change 852 first indicator to Other scheme
+when 
+TRUE
+then
+changeFirstIndicator "852" to "8"
+end

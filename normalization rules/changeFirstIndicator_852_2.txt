@@ -1,0 +1,7 @@
+rule "change 852 first indicator to 2"
+##change 852 first indicator to National Library of Medicine classification
+when 
+TRUE
+then
+changeFirstIndicator "852" to "2"
+end

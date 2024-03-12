@@ -1,0 +1,7 @@
+rule "change 852 first indicator to 6"
+##change 852 first indicator to Shelved separately
+when 
+TRUE
+then
+changeFirstIndicator "852" to "6"
+end

@@ -1,0 +1,24 @@
+rule "U+fffd-Etats"
+##Fix diacritic error in Etats-Unis subject headings
+	when
+		(TRUE)
+	then
+		replaceContents "600.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "610.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "611.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "630.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "647.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "648.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "650.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "651.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "653.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "654.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "655.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "689.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "690.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "691.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "696.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "697.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "698.*.<U+fffd>Etats-Unis" with "États-Unis"
+		replaceContents "699.*.<U+fffd>Etats-Unis" with "États-Unis"
+end

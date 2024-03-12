@@ -1,0 +1,7 @@
+rule "KB remove 591"
+##Remove 591 fields contributed by KB
+	when 
+		(exists "591.a.*Textbook*") OR (exists "591.a.Faculty Author") OR (exists "591.a.Summer 2023 Required Film")
+	then
+		removeField "591"
+end

@@ -1,0 +1,13 @@
+rule "delete OCLC fields"
+##Delete 029, 936, 938, 948, 956, 987, 994 fields
+when
+		(TRUE)
+	then
+		removeField "029"
+		removeField "936"
+		removeField "938"
+		removeField "948"
+		removeField "956"
+		removeField "987"
+		removeField "994"
+end

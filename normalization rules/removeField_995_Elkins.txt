@@ -1,0 +1,7 @@
+rule "995 Elkins gift note"
+##Delete 995 Elkins gift note
+	when 
+		(exists "995.a.*Elkins*")
+	then
+		removeField "995"
+end

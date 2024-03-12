@@ -1,0 +1,7 @@
+rule "deduplicate 500"
+##Remove duplicate 500 fields
+when 
+(TRUE) 
+then 
+correctDuplicateFields "500"
+end

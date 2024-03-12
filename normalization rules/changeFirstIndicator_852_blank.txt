@@ -1,0 +1,7 @@
+rule "change 852 first indicator to #"
+##change 852 first indicator to blank
+when 
+TRUE
+then
+changeFirstIndicator "852" to ""
+end

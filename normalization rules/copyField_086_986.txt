@@ -1,0 +1,7 @@
+rule "copy 086 to 986"
+##Copy the contents of the 086 field to the 986 field
+when
+  (TRUE)
+then
+  copyField "086" to "986"
+end

@@ -1,0 +1,7 @@
+rule "change 856 $u to $x"
+##Change 856 $u to $x. Useful in import profiles so you can create portfolios from the links in the bibs, then suppress those links from discovery
+when
+ (TRUE)
+then
+ changeSubField "856.u" to "x"
+end
