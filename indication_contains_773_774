@@ -1,6 +1,0 @@
-rule "contains 773 or 774"
-	when
-		((exists "773") OR (exists "774"))
-	then
-		set indication."true"
-end
