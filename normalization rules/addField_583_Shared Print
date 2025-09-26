@@ -1,0 +1,10 @@
+rule "583 Shared Print"
+when
+not exists "583.f.CUNY"
+then
+addField "583.{1,-}.a.Committed to retain"
+addSubField "583.c.20241001"
+addSubField "583.d.20380930"
+addSubField "583.f.CUNY"
+addSubField "583.2.pda"
+end
