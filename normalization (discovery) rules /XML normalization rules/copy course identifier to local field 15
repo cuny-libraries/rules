@@ -1,0 +1,6 @@
+rule "copy course identifier to local field 15"
+when
+      true
+then
+      copy "//*[local-name()='identifier'][not(starts-with(., 'http')) and not(starts-with(., 'oai'))]/." to "discovery"."local15"
+end
