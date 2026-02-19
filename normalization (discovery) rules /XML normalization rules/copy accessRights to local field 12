@@ -1,0 +1,8 @@
+rule "copy accessRights to local field 12"
+when
+     true
+then
+     set TEMP"1" to xpath "//*[local-name()='accessRights']"
+      replace string by string (TEMP"1","\n","<br>")
+      set TEMP"1" in "discovery"."local12"
+end
