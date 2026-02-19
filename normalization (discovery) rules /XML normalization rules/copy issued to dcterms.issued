@@ -1,0 +1,6 @@
+rule "copy issued to dcterms.issued"
+when
+      true
+then
+      copy "//*[local-name()='issued']" to "dcterms"."issued"
+end
