@@ -1,0 +1,6 @@
+rule "copy description.note to local field 9"
+when
+      true
+then
+      copy "//*[local-name()='description.note']" to "discovery"."local9"
+end
