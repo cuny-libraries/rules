@@ -1,0 +1,6 @@
+rule "copy coverage to local field 10"
+when
+     true
+then
+     copy "//*[local-name()='coverage']" to "discovery"."local10"
+end
