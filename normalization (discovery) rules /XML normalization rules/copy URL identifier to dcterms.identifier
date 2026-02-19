@@ -1,0 +1,6 @@
+rule "copy URL identifier to dcterms.identifier"
+when
+      true
+then
+      copy "//*[local-name()='identifier'][starts-with(., 'http')]/." to "dcterms"."identifier"
+end
