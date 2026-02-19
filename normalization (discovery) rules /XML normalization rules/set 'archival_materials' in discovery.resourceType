@@ -1,0 +1,6 @@
+rule "set 'archival_materials' in discovery.resourceType"
+when
+    true
+then
+    set "archival_materials" in "discovery"."resourceType"
+end
