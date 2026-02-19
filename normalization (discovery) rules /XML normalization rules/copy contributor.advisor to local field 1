@@ -1,0 +1,6 @@
+rule "copy contributor.advisor to local field 1"
+when
+      true
+then
+      copy "//*[local-name()='contributor.advisor']" to "discovery"."local1"
+end
