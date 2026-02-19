@@ -1,0 +1,6 @@
+rule "copy description to dcterms.description"
+when
+      true
+then
+      copy "//*[local-name()='description']" to "dcterms"."description"
+end
