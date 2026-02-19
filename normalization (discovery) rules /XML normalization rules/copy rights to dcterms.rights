@@ -1,0 +1,6 @@
+rule "copy rights to dcterms.rights"
+when
+      true
+then
+      copy "//*[local-name()='rights']" to "dcterms"."rights"
+end
