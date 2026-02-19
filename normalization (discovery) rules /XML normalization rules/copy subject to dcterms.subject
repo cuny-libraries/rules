@@ -1,0 +1,6 @@
+rule "copy subject to dcterms.subject"
+when
+      true
+then
+      copy "//*[local-name()='subject']" to "dcterms"."subject"
+end
