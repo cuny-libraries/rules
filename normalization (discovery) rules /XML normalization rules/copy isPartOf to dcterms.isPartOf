@@ -1,0 +1,6 @@
+rule "copy isPartOf to dcterms.isPartOf"
+when
+      true
+then
+      copy "//*[local-name()='isPartOf']" to "dcterms"."isPartOf"
+end
