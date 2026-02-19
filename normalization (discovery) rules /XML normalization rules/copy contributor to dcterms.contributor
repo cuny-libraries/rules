@@ -1,0 +1,6 @@
+rule "copy contributor to dcterms.contributor"
+when
+      true
+then
+      copy "//*[local-name()='contributor']" to "dcterms"."contributor"
+end
