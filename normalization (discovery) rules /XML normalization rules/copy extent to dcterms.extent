@@ -1,0 +1,6 @@
+rule "copy extent to dcterms.extent"
+when
+     true
+then
+     copy "//*[local-name()='extent']" to "dcterms"."extent"
+end
