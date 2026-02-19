@@ -1,0 +1,6 @@
+rule "copy date.modified to local field 14"
+when
+     true
+then
+     copy "//*[local-name()='date.modified']" to "discovery"."local14"
+end
