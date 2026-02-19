@@ -1,0 +1,6 @@
+rule "copy abstract to local field 8"
+when
+      true
+then
+      copy "//*[local-name()='abstract']" to "discovery"."local8"
+end
