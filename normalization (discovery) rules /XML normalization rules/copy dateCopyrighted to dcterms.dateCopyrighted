@@ -1,0 +1,6 @@
+rule "copy dateCopyrighted to dcterms.dateCopyrighted"
+when
+     true
+then
+     copy "//*[local-name()='dateCopyrighted']" to "dcterms"."dateCopyrighted"
+end
