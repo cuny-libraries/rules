@@ -1,0 +1,8 @@
+rule "copy provenance to local field 11"
+when
+     true
+then
+      set TEMP"1" to xpath "//*[local-name()='provenance']"
+      replace string by string (TEMP"1","\n","<br>")
+      set TEMP"1" in "discovery"."local11"
+end
