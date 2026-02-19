@@ -1,0 +1,6 @@
+rule "set 'az' in discovery.resourceType"
+when
+    true
+then
+    set "az" in "discovery"."resourceType"
+end
