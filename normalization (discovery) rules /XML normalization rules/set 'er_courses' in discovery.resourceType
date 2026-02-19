@@ -1,0 +1,6 @@
+rule "set 'er_courses' in discovery.resourceType"
+when
+    true
+then
+    set "er_courses" in "discovery"."resourceType"
+end
