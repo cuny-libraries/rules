@@ -1,0 +1,6 @@
+rule "copy creator to dcterms.creator"
+when
+      true
+then
+      copy "//*[local-name()='creator']" to "dcterms"."creator"
+end
