@@ -1,0 +1,6 @@
+rule "set 'guides' in discovery.resourceType"
+when
+    true
+then
+    set "guides" in "discovery"."resourceType"
+end
