@@ -1,0 +1,6 @@
+rule "copy publisher to dcterms.publisher"
+when
+      true
+then
+      copy "//*[local-name()='publisher']" to "dcterms"."publisher"
+end
