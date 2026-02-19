@@ -1,0 +1,6 @@
+rule "copy thesis.degree.level to local field 6"
+when
+      true
+then
+      copy "//*[local-name()='thesis.degree.level']" to "discovery"."local6"
+end
