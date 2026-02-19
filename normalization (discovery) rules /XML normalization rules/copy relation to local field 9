@@ -1,0 +1,8 @@
+rule "copy relation to local field 9"
+when
+     true
+then
+     set TEMP"1" to xpath "//*[local-name()='relatedMaterials']"
+      replace string by string (TEMP"1","\n","<br>")
+      set TEMP"1" in "discovery"."local9"
+end
