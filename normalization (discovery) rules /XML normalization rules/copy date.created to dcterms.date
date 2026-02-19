@@ -1,0 +1,6 @@
+rule "copy date.created to dcterms.date"
+when
+     true
+then
+     copy "//*[local-name()='date.created']" to "dcterms"."date"
+end
