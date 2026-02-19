@@ -1,0 +1,6 @@
+rule "copy thesis.degree.publication.type to discovery.resourceType"
+when
+      true
+then
+      copy "//*[local-name()='thesis.degree.publication.type']" to "discovery"."resourceType"
+end
