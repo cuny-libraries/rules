@@ -1,0 +1,6 @@
+rule "copy thesis.degree.grantor to local field 5"
+when
+      true
+then
+      copy "//*[local-name()='thesis.degree.grantor']" to "discovery"."local5"
+end
