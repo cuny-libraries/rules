@@ -1,0 +1,6 @@
+rule "copy identifier to dcterms.identifier"
+when
+      true
+then
+      copy "//*[local-name()='identifier']" to "dcterms"."identifier"
+end
