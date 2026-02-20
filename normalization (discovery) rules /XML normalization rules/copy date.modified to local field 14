@@ -1,4 +1,5 @@
 rule "copy date.modified to local field 14"
+##Copies date.modified metadata from Dublin Core to local field 14
 when
      true
 then
