@@ -1,4 +1,5 @@
 rule "copy subject to dcterms.subject"
+##Copies subject metadata from Dublin Core to dcterms:subject
 when
       true
 then
