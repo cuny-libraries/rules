@@ -1,4 +1,5 @@
 rule "copy creator to dcterms.creator"
+##Copies creator metadata from Dublin Core to dcterms:creator
 when
       true
 then
