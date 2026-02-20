@@ -1,4 +1,5 @@
 rule "copy type to dcterms.subject"
+##Copies type metadata from Dublin Core to dcterms:subject
 when
       true
 then
