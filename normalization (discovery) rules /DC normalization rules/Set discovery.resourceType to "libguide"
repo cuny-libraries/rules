@@ -1,0 +1,6 @@
+rule "Set discovery.resourceType to libguide"
+when
+"dc"."type" equals "libguide"
+then
+set "libguide" in "discovery"."resourceType"
+end
