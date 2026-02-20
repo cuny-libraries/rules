@@ -1,4 +1,5 @@
 rule "copy language to dcterms.language"
+##Copies language metadata from Dublin Core to dcterms:language
 when
       true
 then
