@@ -1,4 +1,5 @@
 rule "copy thesis.degree.publication.type to discovery.resourceType"
+##Copies thesis.degree.publication.type metadata from Dublin Core to discovery.resourceType
 when
       true
 then
