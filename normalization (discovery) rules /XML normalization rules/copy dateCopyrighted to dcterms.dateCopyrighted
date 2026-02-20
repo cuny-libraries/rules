@@ -1,4 +1,5 @@
 rule "copy dateCopyrighted to dcterms.dateCopyrighted"
+##Copies dateCopyrighted metadata from Dublin Core to dcterms:dateCopyrighted
 when
      true
 then
