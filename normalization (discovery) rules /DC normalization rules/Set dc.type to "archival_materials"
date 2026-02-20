@@ -1,0 +1,6 @@
+rule "Set dc.type to archival_materials"
+when 
+(true)
+then
+set "archival_materials" in "dc"."type"
+end
