@@ -1,4 +1,5 @@
 rule "copy extent to dcterms.extent"
+##Copies extent metadata from Dublin Core to dcterms:extent
 when
      true
 then
