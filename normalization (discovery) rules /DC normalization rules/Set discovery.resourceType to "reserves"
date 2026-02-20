@@ -1,0 +1,6 @@
+rule "Set discovery.resourceType to reserves"
+when
+"dc"."type" equals "reserves"
+then
+set "reserves" in "discovery"."resourceType"
+end
