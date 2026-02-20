@@ -1,6 +1,7 @@
 rule "Set dc.type to libguide"
+##creates a type for "LibGuides" -RH
 when 
-(true)
+  (true)
 then
-set "libguide" in "dc"."type"
+  set "libguide" in "dc"."type"
 end
