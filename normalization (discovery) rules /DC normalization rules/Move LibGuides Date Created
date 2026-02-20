@@ -1,0 +1,6 @@
+rule "move date.created to local field 10"
+when
+exist "dc"."date"
+then
+move "dc"."date" to "discovery"."local10"
+end
