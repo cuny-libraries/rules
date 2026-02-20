@@ -1,6 +1,7 @@
 rule "Set dc.type to archives"
+##creates a type for "Archives" -RH
 when 
-(true)
+  (true)
 then
-set "archives" in "dc"."type"
+  set "archives" in "dc"."type"
 end
