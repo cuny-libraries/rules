@@ -1,4 +1,5 @@
 rule "copy abstract to local field 8"
+##Copies abstract metadata from Dublin Core to local field 8
 when
       true
 then
