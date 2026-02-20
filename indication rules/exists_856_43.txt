@@ -1,0 +1,6 @@
+rule "856 43 exists"
+when
+(exists "856.{4,3}")
+then
+set indication."true"
+end
