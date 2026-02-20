@@ -1,4 +1,5 @@
 rule "set type to local field 13"
+##Sets type metadata from Dublin Core to local field 13
 when
      true
 then
