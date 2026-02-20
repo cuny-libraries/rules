@@ -1,4 +1,5 @@
 rule "copy identifier to dcterms.identifier"
+##Copies identifier metadata from Dublin Core to dcterms:identifier
 when
       true
 then
