@@ -1,6 +1,7 @@
 rule "Set discovery.resourceType to azdatabase"
+##Adds resourceType for LibGuides Database listings -RH
 when
-"dc"."type" equals "azdatabase"
+  "dc"."type" equals "azdatabase"
 then
-set "azdatabase" in "discovery"."resourceType"
+  set "azdatabase" in "discovery"."resourceType"
 end
