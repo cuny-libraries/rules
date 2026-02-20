@@ -1,4 +1,5 @@
 rule "copy contributor.committeeMember to local field 2"
+##Copies contributor.committeeMember metadata from Dublin Core to local field 2
 when
       true
 then
