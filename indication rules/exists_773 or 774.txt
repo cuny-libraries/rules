@@ -1,4 +1,5 @@
 rule "contains 773 or 774"
+##Checks if record contains 773 or 774 field
 when
 ((exists "773") OR (exists "774"))
 then
