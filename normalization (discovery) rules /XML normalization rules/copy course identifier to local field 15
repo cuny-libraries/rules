@@ -1,4 +1,5 @@
 rule "copy course identifier to local field 15"
+##Copies identifier (not starting with "http" or "oai") metadata from Dublin Core to local field 15
 when
       true
 then
