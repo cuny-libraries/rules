@@ -1,0 +1,6 @@
+rule "Set dc.type to libguide"
+when 
+(true)
+then
+set "libguide" in "dc"."type"
+end
