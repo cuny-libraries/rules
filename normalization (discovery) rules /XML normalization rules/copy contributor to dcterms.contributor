@@ -1,4 +1,5 @@
 rule "copy contributor to dcterms.contributor"
+##Copies contributor metadata from Dublin Core to dcterms:contributor
 when
       true
 then
