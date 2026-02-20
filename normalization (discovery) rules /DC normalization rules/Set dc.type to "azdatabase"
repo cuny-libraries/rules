@@ -1,6 +1,7 @@
 rule "Set dc.type to azdatabase"
+##creates a type for " A-Z LibGuides" -RH
 when 
-(true)
+  (true)
 then
-set "azdatabase" in "dc"."type"
+  set "azdatabase" in "dc"."type"
 end
