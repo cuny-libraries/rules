@@ -1,4 +1,5 @@
 rule "copy provenance to local field 11"
+##Copies provenance metadata from Dublin Core to local field 11
 when
      true
 then
