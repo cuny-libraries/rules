@@ -1,4 +1,5 @@
 rule "copy description to dcterms.description"
+##Copies description metadata from Dublin Core to dcterms:description
 when
       true
 then
