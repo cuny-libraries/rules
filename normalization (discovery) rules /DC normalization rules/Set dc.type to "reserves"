@@ -1,6 +1,7 @@
 rule "Set dc.type to reserves"
+##creates a type for "E-Reserves" -RH
 when 
-(true)
+  (true)
 then
-set "reserves" in "dc"."type"
+  set "reserves" in "dc"."type"
 end
