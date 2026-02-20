@@ -1,0 +1,6 @@
+rule "Set discovery.resourceType to azdatabase"
+when
+"dc"."type" equals "azdatabase"
+then
+set "azdatabase" in "discovery"."resourceType"
+end
