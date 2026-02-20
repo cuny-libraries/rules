@@ -1,6 +1,7 @@
 rule "Set discovery.resourceType to libguide"
+##Adds resourceType for LibGuides -RH
 when
-"dc"."type" equals "libguide"
+  "dc"."type" equals "libguide"
 then
-set "libguide" in "discovery"."resourceType"
+  set "libguide" in "discovery"."resourceType"
 end
