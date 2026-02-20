@@ -1,4 +1,5 @@
 rule "copy accessRights to local field 12"
+##Copies accessRights metadata from Dublin Core to local field 12
 when
      true
 then
