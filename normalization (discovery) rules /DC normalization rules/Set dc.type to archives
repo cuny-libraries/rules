@@ -1,0 +1,6 @@
+rule "Set dc.type to archives"
+when 
+(true)
+then
+set "archives" in "dc"."type"
+end
