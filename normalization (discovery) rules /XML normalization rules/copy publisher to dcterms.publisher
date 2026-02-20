@@ -1,4 +1,5 @@
 rule "copy publisher to dcterms.publisher"
+##Copies publisher metadata from Dublin Core to dcterms:publisher
 when
       true
 then
