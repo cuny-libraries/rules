@@ -1,0 +1,24 @@
+rule "copy date.created to local field 10"
+when
+exist "dc"."date"
+then
+set TEMP"1" to dc value "dc"."date"
+remove substring using regex (TEMP"1","T.*")
+set "discovery"."local10" to TEMP"1"
+end
+
+rule "remove time from dc.date"
+when
+exist "dc"."date"
+then
+set TEMP"1" to dc value "dc"."date"
+remove substring using regex (TEMP"1","T.*")
+set "dc"."date" to TEMP"1"
+end
+
+rule "dc:type thesis"
+when
+"dcterms"."type" equals "thesis"
+then
+set "Thesis" in "discovery"."resourceType"
+end
