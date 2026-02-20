@@ -1,0 +1,6 @@
+rule "Set discovery.resourceType to archival_materials"
+when
+"dc"."type" equals "archival_materials"
+then
+set "archival_materials" in "discovery"."resourceType"
+end
