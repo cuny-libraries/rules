@@ -1,4 +1,5 @@
 rule "copy description.note to local field 9"
+##Copies description.note metadata from Dublin Core to local field 9
 when
       true
 then
