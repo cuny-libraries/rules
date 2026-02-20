@@ -1,4 +1,5 @@
 rule "copy issued to dcterms.issued"
+##Copies issued metadata from Dublin Core to dcterms.issued
 when
       true
 then
