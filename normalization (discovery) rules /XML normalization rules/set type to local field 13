@@ -1,0 +1,6 @@
+rule "set type to local field 13"
+when
+     true
+then
+     copy "//*[local-name()='type']" to "discovery"."local13"
+end
