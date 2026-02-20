@@ -1,6 +1,7 @@
 rule "Set discovery.resourceType to reserves"
+##Adds resourceType for E-Reserves
 when
-"dc"."type" equals "reserves"
+  "dc"."type" equals "reserves"
 then
-set "reserves" in "discovery"."resourceType"
+  set "reserves" in "discovery"."resourceType"
 end
