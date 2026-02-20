@@ -1,0 +1,104 @@
+rule "Copy identifier from metadata"
+when
+  true
+then
+  copy "//*[local-name()='identifier']" to "dcterms"."identifier"
+end
+
+rule "Copy title from metadata"
+when
+  true
+then
+  copy "//*[local-name()='title']" to "dcterms"."title"
+end
+
+rule "Copy contributor from metadata"
+when
+  true
+then
+  copy "//*[local-name()='contributor']" to "dcterms"."contributor"
+end
+
+rule "Copy coverage from metadata"
+when
+  true
+then
+  copy "//*[local-name()='coverage']" to "dcterms"."coverage"
+end
+
+rule "Copy creator from metadata"
+when
+  true
+then
+  copy "//*[local-name()='creator']" to "dcterms"."creator"
+end
+
+rule "Copy date from metadata"
+when
+  true
+then
+  copy "//*[local-name()='date']" to "dcterms"."date"
+end
+
+rule "Copy description from metadata"
+when
+  true
+then
+  copy "//*[local-name()='description']" to "dcterms"."description"
+end
+
+rule "Copy extent from metadata"
+when
+  true
+then
+  copy "//*[local-name()='extent']" to "dcterms"."extent"
+end
+
+rule "Copy language from metadata"
+when
+  true
+then
+  copy "//*[local-name()='language']" to "dcterms"."language"
+end
+
+rule "Copy publisher from metadata"
+when
+  true
+then
+  copy "//*[local-name()='publisher']" to "dcterms"."publisher"
+end
+
+rule "Copy relation from metadata"
+when
+  true
+then
+  copy "//*[local-name()='relation']" to "dcterms"."relation"
+end
+
+rule "Copy rights from metadata"
+when
+  true
+then
+  copy "//*[local-name()='rights']" to "dcterms"."rights"
+end
+
+rule "Copy subject from metadata"
+when
+  true
+then
+  copy "//*[local-name()='subject']" to "dcterms"."subject"
+end
+
+rule "Copy type from metadata"
+when
+  true
+then
+  copy "//*[local-name()='type']" to "dcterms"."subject"
+end
+
+rule "Set resource type of Archival Materials"
+when
+  true
+then
+  set "archival_materials" in "dcterms"."type"
+end
