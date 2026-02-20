@@ -1,4 +1,5 @@
 rule "copy date.created to dcterms.date"
+##Copies date.created metadata from Dublin Core to dcterms:date
 when
      true
 then
