@@ -1,6 +1,7 @@
 rule "move date.created to local field 10"
+##Moves the DC.Date.Created to a local Primo local display field -RH
 when
-exist "dc"."date"
+  exist "dc"."date"
 then
-move "dc"."date" to "discovery"."local10"
+  move "dc"."date" to "discovery"."local10"
 end
