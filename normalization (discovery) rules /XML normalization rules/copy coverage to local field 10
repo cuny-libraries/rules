@@ -1,4 +1,5 @@
 rule "copy coverage to local field 10"
+##Copies coverage metadata from Dublin Core to local field 10
 when
      true
 then
