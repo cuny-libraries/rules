@@ -1,4 +1,5 @@
 rule "copy URL identifier to dcterms.identifier"
+##Copies identifier (starting with "http") metadata from Dublin Core to dcterms:identifier
 when
       true
 then
