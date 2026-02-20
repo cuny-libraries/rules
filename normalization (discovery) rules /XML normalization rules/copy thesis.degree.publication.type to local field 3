@@ -1,4 +1,5 @@
 rule "copy thesis.degree.publication.type to local field 3"
+##Copies thesis.degree.publication.type metadata from Dublin Core to local field 3
 when
       true
 then
