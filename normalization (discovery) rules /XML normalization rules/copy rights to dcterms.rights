@@ -1,4 +1,5 @@
 rule "copy rights to dcterms.rights"
+##Copies rights metadata from Dublin Core to dcterms:rights
 when
       true
 then
