@@ -1,0 +1,6 @@
+rule "Set dc.type to reserves"
+when 
+(true)
+then
+set "reserves" in "dc"."type"
+end
