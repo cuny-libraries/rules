@@ -1,4 +1,5 @@
 rule "copy title to dcterms.title"
+##Copies title metadata from Dublin Core to dcterms:title
 when
       true
 then
