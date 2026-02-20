@@ -1,11 +1,7 @@
 rule "dc:type thesis"
-
+##When dc:type is thesis, use local resource type Thesis
 when
-
-"dcterms"."type" equals "thesis"
-
+  "dcterms"."type" equals "thesis"
 then
-
-set "DCTypeThesis" in "discovery"."resourceType"
-
+  set "DCTypeThesis" in "discovery"."resourceType"
 end
