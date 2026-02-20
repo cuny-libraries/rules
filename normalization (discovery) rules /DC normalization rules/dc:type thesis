@@ -1,0 +1,11 @@
+rule "dc:type thesis"
+
+when
+
+"dcterms"."type" equals "thesis"
+
+then
+
+set "DCTypeThesis" in "discovery"."resourceType"
+
+end
