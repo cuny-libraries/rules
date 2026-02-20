@@ -1,6 +1,7 @@
 rule "Set discovery.resourceType to archives"
+##Adds resourceType for Archives -RH
 when
-"dc"."type" equals "archives"
+  "dc"."type" equals "archives"
 then
-set "archives" in "discovery"."resourceType"
+  set "archives" in "discovery"."resourceType"
 end
