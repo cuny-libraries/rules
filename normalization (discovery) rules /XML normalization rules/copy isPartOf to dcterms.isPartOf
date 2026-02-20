@@ -1,4 +1,5 @@
 rule "copy isPartOf to dcterms.isPartOf"
+##Copies isPartOf metadata from Dublin Core to dcterms.isPartOf
 when
       true
 then
