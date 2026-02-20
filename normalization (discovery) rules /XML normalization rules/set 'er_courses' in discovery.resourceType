@@ -1,4 +1,5 @@
 rule "set 'er_courses' in discovery.resourceType"
+##Sets discovery.resourceType to 'er_courses'
 when
     true
 then
