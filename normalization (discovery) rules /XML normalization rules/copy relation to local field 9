@@ -1,4 +1,5 @@
 rule "copy relation to local field 9"
+##Copies relation metadata from Dublin Core to local field 9
 when
      true
 then
